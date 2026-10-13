@@ -1,0 +1,89 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #4c69b1;
+    color: white;
+}
+
+header {
+    padding: 25px;
+    text-align: center;
+    background: #1d4ed8;
+}
+
+/* 1. STATIC */
+.static {
+    position: static;
+    background: #2563eb;
+}
+
+/* 2. RELATIVE */
+.relative {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background: #9333ea;
+}
+
+/* 3. ABSOLUTE */
+.absolute-container {
+    position: relative;
+    height: 150px;
+    margin: 30px 0;
+    border: 2px dashed white;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #dc2626;
+}
+
+/* 4. FIXED */
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ea580c;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* 5. STICKY */
+.sticky-box {
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    text-align: center;
+    background: #059669;
+    z-index: 10;
+}
+
+/* General boxes */
+.box {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.box p,
+.fixed-box p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.normal {
+    background: #334155;
+    min-height: 120px;
+}
+
+main {
+    padding: 20px;
+    min-height: 1200px;
+}
